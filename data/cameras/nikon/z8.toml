@@ -1,0 +1,14 @@
+# copied from https://github.com/LibRaw/LibRaw/blob/cc118c1c1869e2559dbd0c7639d219154cc46e40/src/tables/colordata.cpp
+
+make = "NIKON CORPORATION"
+model = "NIKON Z 8"
+clean_make = "NIKON CORPORATION"
+clean_model = "NIKON Z 8"
+color_matrix = [11423, -4564, -1123, -4816, 12895, 2119, -210, 1061, 7282]
+color_pattern = "RGGB"
+crops = [0,0,0,0]
+
+[[cameras.modes]]
+mode = "14bit"
+blackpoint = 400
+whitepoint = 15520
